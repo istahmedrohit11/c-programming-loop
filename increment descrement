@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+    int a,b,c,d,e;
+        a = 5;
+        b =++a; //a=6,b=6
+        c=a++; //a=6,c=6
+        d=a--; //a=6,d=7
+        e=--a; //a=5,e=5
+	printf("a = %d\n",a);
+    printf("b = %d\n",b);
+	printf("c= %d\n",c);
+    printf("d= %d\n",d);
+    printf("e= %d\n",e);
+	return 0;
+
+}
