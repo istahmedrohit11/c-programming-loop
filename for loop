@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int n;
+    int i;
+    
+    printf("How many numbers do you want: ");
+    scanf("%d", &n);  // Reading user input in C
+
+    for(i = 1; i <= n; i++) {
+        printf("%d ", i);  // Printing numbers in C
+    }
+
+    return 0;
+}
